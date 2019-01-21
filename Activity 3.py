@@ -20,7 +20,6 @@ while choice.lower() != "n":
     elif points >= 920 and points <=1000:
         print("Letter grade: A")
     choice = input("\nContinue (y/n)?: ")
-    print(choice)
     while choice != "y" and choice != "n":
         print("Answer must be y or n. Please try again.")
         choice = input("\nContinue (y/n)?: ")
